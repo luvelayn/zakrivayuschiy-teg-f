@@ -133,7 +133,8 @@
 .card__text {
   display: flex;
   flex-direction: column;
-  gap: var(--card-padding);
+  line-height: var(--text-line-height);
+  gap: 27px;
 }
 
 .card__buttons {
@@ -146,10 +147,8 @@
   position: relative;
   border: var(--block-stroke);
   background-color: var(--bg-color);
-  padding-inline-start: var(--btn-padding-i);
-  padding-inline-end: var(--btn-padding-i);
-  padding-block-start: var(--btn-padding-b);
-  padding-block-end: var(--btn-padding-b);
+  padding-inline: var(--btn-padding-i);
+  padding-block: var(--btn-padding-b);
   cursor: pointer;
   overflow: hidden;
   color: var(--btn-content-color);
@@ -206,6 +205,7 @@
 }
 
 .dialog[open] {
+  max-inline-size: none;
   inline-size: var(--dialog-width);
   display: flex;
   flex-direction: column;
@@ -236,6 +236,11 @@
   line-height: 1.5;
 }
 
+.dialog__button {
+  text-transform: uppercase;
+  inline-size: 100%;
+}
+
 body:has(.dialog[open]) {
   overflow: hidden;
 }
@@ -249,7 +254,7 @@ body:has(.dialog[open]) {
     flex-direction: column;
   }
 
-  .floppy {
+  .button__floppy {
     inline-size: 28px;
   }
 }
