@@ -12,7 +12,7 @@
   color: var(--main-color);
 
   background-image: var(--bg-gradient);
-  background-size: cover; 
+  background-size: cover;
 }
 
 .header {
@@ -157,7 +157,7 @@
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--main-color);
   inset: 0;
