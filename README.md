@@ -1,1 +1,1 @@
-https://luvelayn.github.io/zakrivayuschiy-teg-f/
+https://github.com/luvelayn/zakrivayuschiy-teg-f
