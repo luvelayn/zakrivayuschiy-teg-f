@@ -1,1 +1,46 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: 'Inter';
+  --accent-font-family: 'PressStart2P';
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --main-font-size: 18px;
+  --decorative-font-size: 14px;
+  --main-color: #000;
+  --bg-color: #fff;
+
+  --bg-gradient: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  --main-title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  
+  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --header-padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
+  
+  --gap-big: 100px;
+  --gap-small: 50px;
+
+  --dialog-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+  --dialog-padding-b: 30px;
+  --dialog-padding-i: clamp(1.875rem, 2.7201rem + -0.939vw, 2.5rem);
+
+  --title-padding-i: 10px;
+  --title-padding-b: 4px;
+
+  --btn-line-height: 0.9;
+  --btn-padding-b: 7px;
+  --btn-padding-i: 20px;
+  --save-btn-padding-b: 15px;
+
+  --card-padding: 25px;
+
+  --stroke-color: #fff;
+  --btn-content-color: #fff;
+
+  --block-stroke: 2px solid #000;
+
+  --heart-contour: #000;
+  --heart-fill: #FF0000;
+}
